@@ -7,7 +7,7 @@ body{
     margin: 0;
     padding: 0;
 }
-p{
+p, h1{
     font-family: OpenSans, Arial, Helvetica, sans-serif;
 }
 
@@ -38,3 +38,27 @@ p{
     font-weight: 800;
     font-size: 30px;
 }
+
+h1{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 1em;
+    padding-bottom: 0em;
+}
+
+.page--orangetext{
+    color: #EB6C27;
+    font-weight: 700;
+}
+
+.text{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 1.5em 0 1.5em;
+}
+
+.page__img{
+    width: 100%;
+    height: 100%;
+}
+
