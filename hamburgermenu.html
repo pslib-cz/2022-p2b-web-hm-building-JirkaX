@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./vzhled/normalize.css">
+    <link rel="stylesheet" href="./vzhled/hamburgermenu.css">
+    <link rel="stylesheet" href="./vzhled/main.css">
+    <title>HM Building.cz s.r.o</title>
+</head>
+<body>
+    
+    <div class="mobile-container">
+        <nav class="topnav">
+            <a href="index.html" class="active"><img class="logo" src="./media/logo.png"></a>
+        <div id="myLinks">
+                <a href="">Domů</a>
+                <a href="">Služby</a>
+                <a href="">Reference</a>
+                <a href="">O nás</a>
+                <a href="">Kontakt</a>
+        </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+    
+</body>
