@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mainnavbar{
+    padding: 1em;
+}
+
+.logo{
+    height: 44px;
+    width: 127px;
+}
+
+.menu{
+    color: #3A3A3A;
+    text-decoration: none;
+}
