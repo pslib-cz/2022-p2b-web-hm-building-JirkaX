@@ -46,7 +46,6 @@ p, h1, h2{
     color: #FFFFFF;
     position: absolute;
     bottom: 0;
-    
 }
 
 .title__maintitle{
@@ -91,17 +90,27 @@ h2{
 }
 
 .page__img--v1{
-   
+    border-radius: 0 0 40px 0;
+    width: 320px;
+    height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .page__img--v2{
-    
+    border-radius: 0 0 0 40px;
+    width: 320px;
+    height: 124px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #FFFFFF; 
     border: #EB6C27 1px dashed;
-    color: white;
+    color: #EB6C27;
     padding: 12px 40px;
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     text-align: center;
@@ -109,5 +118,5 @@ h2{
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
-    margin: 1em 1em 1em 1.5em;
-  }
+    margin: 1em 1em 3em 1.5em;  
+}
