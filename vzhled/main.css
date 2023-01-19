@@ -120,3 +120,31 @@ h2{
     font-weight: 700;
     margin: 1em 1em 3em 1.5em;  
 }
+
+
+/*Ručení za kvalitu*/
+.page__text--rucenizakvalitu{
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 1em;
+}
+
+.section__backgroundimg{
+    background-image: url(../media/background-CTAblock-4460w.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 30vh;
+    position: relative;
+}
+
+
+
+
+
+/* Novostavby */
+.page__title{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 3em 0 1em 0.65em;
+}
