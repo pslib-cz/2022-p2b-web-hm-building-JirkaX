@@ -1,9 +1,9 @@
 @font-face {
     font-family: OpenSans;
-    src: url(fonts/OpenSans-Regular.ttf);
+    src: url(../fonts/OpenSans-Regular.ttf);
 }
 
-body{
+* {
     margin: 0;
     padding: 0;
 }
@@ -20,23 +20,43 @@ p, h1{
     width: 127px;
 }
 
+.header{
+    background-image: url(../media/pageheader-1920w.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 30vh;
+    position: relative;
+}
+
 .menu{
     color: #3A3A3A;
     text-decoration: none;
     font-family: OpenSans, Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1.5em 1.5em 0 0;
 }
 
-.headerimg{
-    width: 100%;
-    height: 100%;
-}
 
 .title{
-    text-align: center;
+    color: black;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.title__maintitle{
     font-weight: 800;
     font-size: 30px;
+}
+
+.title__secondarytitle{
+    font-weight: 500;
+    font-size: 18px;
 }
 
 h1{
@@ -51,7 +71,7 @@ h1{
     font-weight: 700;
 }
 
-.text{
+.page__text{
     font-size: 14px;
     font-weight: 500;
     padding: 0 1.5em 0 1.5em;
