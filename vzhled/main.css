@@ -100,6 +100,15 @@ h2{
 
 }
 
+h3{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0em 0em 0em 1.5em;
+}
+.h3--first{
+    padding-top: 2em;
+}
+
 .page--orangetext{
     color: #EB6C27;
     font-weight: 700;
@@ -174,7 +183,7 @@ h2{
 
 
 
-/* Novostavby */
+/* Stránky přes buttony */
 .page__title{
     font-size: 30px;
     font-weight: 700;
@@ -182,10 +191,27 @@ h2{
 }
 
 .points{
+    padding-top: 1em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+}
+
+.points--reconstruction{
+    padding-top: 0;
+    margin-bottom: 0;
 }
 
 li{
-    margin: 1em 0 1em 1em;
+    margin: 0em 0 0em 1em;
+}
+
+li::marker{
+    color: #EB6C27;
+    font-size: 2em;
+}
+
+.moved{
+    margin-left: 3.5em;
 }
 
 
