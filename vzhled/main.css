@@ -172,6 +172,25 @@ h3{
     margin-top: 3em;
 }
 
+.img--pradelna{
+    width: 320px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.img--pradelna--first{
+    margin-top: 2em;
+}
+
+.img--pradelna--height{
+    width: 320px;
+    height: 570px;
+}
+
 .reference{
     text-align: center;
 }
