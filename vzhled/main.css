@@ -194,6 +194,7 @@ h3{
     background-color: #EB6C27;
     color: #FFFFFF;
     margin-top: 3em;
+    border: 0px;
 }
 
 
@@ -219,6 +220,7 @@ h3{
 .button--kvalita{
     background-color: #EB6C27;
     color: #FFFFFF;
+    border: 0px;
 }
 
 
@@ -278,6 +280,6 @@ footer{
 
 .button--footer{
     padding: 1.5em 5em 1.5em 5em;
-    border: #EB6C27 1px;
+    border: 0px;
     font-size: 15px;
 }
