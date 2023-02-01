@@ -17,14 +17,13 @@ p, h1, h2{
 
 /*Navbar*/
 .mainnavbar{
-    padding: 1em;
     padding-left: 0em;
 }
 
 .logo{
     height: 40px;
     width: 150px;
-    padding-bottom: 1em;
+    padding: 1em 1em 1em 0em;
 }
 
 
@@ -57,7 +56,7 @@ p, h1, h2{
 
 /*Header (title)*/
 .header{
-    background-image: url(../media/pageheader-1920w.jpg);
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)), url(../media/pageheader-1920w.jpg);
     background-size: 200%;
     background-position: center;
     width: 100%;
@@ -200,7 +199,7 @@ h3{
 
 /*Ručení za kvalitu*/
 .section__backgroundimg{
-    background-image: url(../media/background-CTAblock-4460w.jpg);
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.85), rgba(36, 36, 36, 0.85)), url(../media/background-CTAblock-4460w.jpg);
     background-size: 200%;
     background-position: center;
     width: 100vw;
