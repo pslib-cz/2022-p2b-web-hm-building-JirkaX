@@ -302,3 +302,38 @@ footer{
     border: 0px;
     font-size: 15px;
 }
+
+
+/*Kontakty*/
+
+.kontakty{
+    margin: 2em 1em 1em 1.5em;
+    color: #EB6C27;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: none;
+    padding-top: 1em;
+}
+.textphone{
+    padding-top: 2em;
+}
+
+.textmail{
+    padding: 2em 0 2em 0;
+}
+
+.img--kontakty{
+    padding-top: 2em;
+    width: 100%;
+    max-height: 300px;
+}
+
+.page__text--kontakty{
+    font-weight: 700;
+    padding-top: 2em;
+}
+
+.kontaktyborder{
+    border: 1px solid #EB6C27;
+    padding: 22.5px 100px 22.5px 100px;
+}
