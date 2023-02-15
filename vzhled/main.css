@@ -77,16 +77,16 @@ html{
 .title__secondarytitle{
     font-weight: 500;
     font-size: 18px;
-    padding: 0.5em 0 1.25em 0;
+    padding-bottom: 0.6em;
 }
 
 /*------------------------*/
 
-h1{
+.page__text--bigger{
     font-weight: 700;
     font-size: 22px;
     padding: 1em;
-    padding-bottom: 0em;
+    padding-bottom: 1em;
 }
 
 .h1--reference{
@@ -94,19 +94,19 @@ h1{
     padding: 0em;
 }
 
-h2{
+.page__text--2{
     font-weight: 700;
     font-size: 20px;
     padding: 1em;
 
 }
 
-h3{
+.page__text--3{
     font-weight: 700;
     font-size: 14px;
     padding: 0em 0em 0em 1.5em;
 }
-.h3--first{
+.page__text--3first{
     padding-top: 2em;
 }
 
@@ -223,7 +223,6 @@ h3{
     min-height: 25vh;
     position: relative;
 }
-
 
 .page__text--rucenizakvalitu{
     font-weight: 700;
