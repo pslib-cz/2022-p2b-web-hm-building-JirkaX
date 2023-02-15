@@ -11,9 +11,6 @@
 html{
     font-family: OpenSans, Arial, Helvetica, sans-serif;
 }
-p, h1, h2{
-    font-family: OpenSans, Arial, Helvetica, sans-serif;
-}
 
 /*Navbar*/
 .mainnavbar{
@@ -336,4 +333,11 @@ footer{
 .kontaktyborder{
     border: 1px solid #EB6C27;
     padding: 22.5px 100px 22.5px 100px;
+}
+
+.footer__title{
+    font-weight: 700;
+    font-size: 22px;
+    padding: 1.5em 1em 1em 1em;
+    padding-bottom: 0em;
 }
