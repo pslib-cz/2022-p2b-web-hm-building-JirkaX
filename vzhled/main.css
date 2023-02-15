@@ -327,18 +327,6 @@ li::before{
 }
 
 .textphone::before{
-    font-family: 'Font Awesome 6 Free';
-    content: "\f095";
-    display: inline-grid;
-    align-items: center;
-    vertical-align: middle;
-    color: white;
-    width: 32px;
-    height: 32px;
-    background-color: #eb6c27;
-    border-radius: 50%;
-    text-align: center;
-  
 }
 
 .textmail{
