@@ -418,6 +418,10 @@ input[type=submit] {
         font-size: 1em;
         
     }
+    .page__separated{
+        padding-left: 5em;
+        padding-right: 5em;
+    }
 }
 
 
