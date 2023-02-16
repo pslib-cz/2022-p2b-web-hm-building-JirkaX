@@ -341,11 +341,6 @@ li::before{
     padding-top: 2em;
 }
 
-.kontaktyborder{
-    border: 1px solid #EB6C27;
-    padding: 22.5px 100px 22.5px 100px;
-}
-
 .footer__title{
     font-weight: 700;
     font-size: 1.375em;
@@ -356,4 +351,32 @@ li::before{
 .odkazreference{
     color: black;
     text-decoration: none;
+}
+
+.page__text--formular{
+    padding: 0em;
+    font-weight: 700;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #EB6C27;
+    box-sizing: border-box;
+    margin-top: 0.5em;
+    margin-bottom: 1.25em;
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: #EB6C27;
+    color: white;
+    padding: 1.2em 2.5em;
+    border: none;
+    cursor: pointer;
+    font-size: 0.875em;
+}
+
+.formular {
+    padding: 1.5em;
 }

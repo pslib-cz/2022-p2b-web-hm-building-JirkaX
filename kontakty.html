@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./vzhled/normalize.css">
     <link rel="stylesheet" href="./vzhled/main.css">
-    <title>Samoobslužná prádelna</title>
+    <title>Kontakty</title>
 </head>
 <body>
     <div class="container">
@@ -30,8 +30,33 @@
 
             <p class="page__text--2">Nezávazná poptávka služeb</p>
             <p class="page__text">Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
-            <p class="page__text page__text--kontakty">Jméno a přijímení</p>
-            <p class="kontaktyborder">coje</p>
+            <div class="formular">
+                <form action="action_page.php">
+                    <label class="page__text page__text--formular" for="name">Jméno a příjmení</label>
+                    <input type="text" id="jmenoaprijmeni" name="jmenoaprijmeni">
+        
+                    <label class="page__text page__text--formular" for="email">E-mail</label>
+                    <input type="text" id="email" name="email">
+        
+                    <label class="page__text page__text--formular" for="telefon">Telefon</label>
+                    <input type="text" id="telefon" name="telefon">
+        
+                    <label class="page__text page__text--formular" for="sluzba">Poptávaná služba</label>
+                    <select id="sluzba" name="sluzba">
+                      <option value="novostavba">Novostavba</option>
+                      <option value="prumyslovastavba">Průmyslová stavba</option>
+                      <option value="rekostrukce">Rekonstrukce</option>
+                      <option value="komunikace">Komunikace a zpevněné plochy</option>
+                    </select>
+        
+                    <label  class="page__text page__text--formular" for="poznamka">Poznámka</label>
+                    <textarea id="poznamka" name="poznamka" style="height:300px"></textarea>
+        
+                    <div class="button__formular">
+                        <input type="submit" value="Odeslat nezávaznou poptávku">
+                    </div>
+                  </form>
+            </div>
         </div>
     </div>
 </body>
