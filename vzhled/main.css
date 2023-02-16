@@ -375,3 +375,49 @@ input[type=submit] {
 .formular {
     padding: 1.5em;
 }
+
+@media only screen and (min-width: 600px){
+    .header{
+    background-image: linear-gradient(to bottom, rgba(36, 36, 36, 0.5), rgba(36, 36, 36, 0.5)), url(../media/pageheader-3100w.jpg);
+    background-position: center;
+    min-height: 130vh;
+    }
+
+    .title__maintitle{
+        font-weight: 800;
+        font-size: 7.5em;
+    }
+    
+    .title__secondarytitle{
+        font-weight: 500;
+        font-size: 2em;
+        padding-bottom: 0.6em;
+    }
+
+    .page__text--bigger{
+        text-align: center;
+        font-size: 3.5em;
+        margin-top: 2em;
+    }
+    
+    .page__text--beginning{
+        text-align: center;
+        font-size: 1.25em;
+        padding-bottom: 2em;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .page__title{
+        text-align: center;
+        font-size: 3em;
+    }
+
+    .page__text--downspace{
+        text-align: center;
+        font-size: 1em;
+        
+    }
+}
+
+
